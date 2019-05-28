@@ -1,0 +1,36 @@
+
+###################USING VIM###########################
+
+####NOTES####
+
+1.) if modifying a file with vim that file cannot be viewed or modified by any other program or user
+
+
+
+####ACCESSING VIM FROM TERMINAL####
+
+# from ubuntu terminal to open vim
+$ vim
+
+# from ubuntu terminal to open a file with vim
+ # (file does not need to exist, will create a text version if not)
+$ vim somefolder/newfile.txt
+
+
+####Using VIM####
+
+# stands for insert, typing i then allows you to write to the currently opened text file
+i
+
+# quit vim
+:q
+
+# write/save changes to file
+:w
+
+# write to then quite file
+:wq
+
+# press esc to switch from inserting text (ie writing to the file)
+#- to using commands with the file like :q and :w
+esc

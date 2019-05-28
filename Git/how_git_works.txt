@@ -1,0 +1,18 @@
+
+
+Steps to how GIT works:
+
+1.) We have a file system on our computer
+2.) we initialize GIT for a specific folder ( a project folder)
+3.) We tell GIT to include files in its next commit
+    - This adds them to the "staging area"
+4.) from the staging area we can commit the files to the local respository
+    - this creates a snapshot of them
+5.) Then from the local repository we push these files to the cloud
+    - ie we send them to a git service like GitHub
+
+* the three layers then are: The staging area, the commit, the remote repository
+
+Note:
+- it is important to know where in the above steps my files currently are at a given time
+- each of the layers noted above are physical places (inside a hidden .git folder)

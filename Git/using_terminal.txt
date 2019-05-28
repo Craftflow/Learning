@@ -1,0 +1,39 @@
+
+
+###################working in ubuntu terminal#################
+
+####NOTES#####
+
+~ stands for users home directory
+
+
+####COMMANDS#####
+# get present working directory
+$pwd
+
+# go up one folder in directory
+$ cd ..
+
+# make directory - if using spaces in directory name you need to use quotes "" around name
+$ mkdir
+
+# remove directory, if it is a folder you need to use -r
+$ rm -r
+
+# create a new empty text file named NewFile.txt
+$ touch NewFile.txt
+
+#mv (meaning move files) can be used to move file but also to rename them as seen below
+#- rename file
+$ mv oldfilename.txt newfilename.txt
+#- move file
+$ mv test/video.txt video.txt  # move file from folder forward to pwd
+$ mv video.txt test/  # move file in pwd to another folder
+
+# view(ie read) a file
+# - sometimes we just want to view a file/read and not modify it (viewing and modifying are not the same)
+$ cat test/filename.txt  #cat comes from the word concatenate, in essence you are concatenating the text in this file for reading
+
+
+
+
